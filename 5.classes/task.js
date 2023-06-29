@@ -1,3 +1,7 @@
+"use strict"
+
+// Задача 1. Печатное издание
+
 class PrintEditionItem {
     constructor(name, releaseDate, pagesCount) {
         this.name = name;
@@ -59,6 +63,8 @@ class DetectiveBook extends Book {
         this.type = "detective";
     }
 }
+
+// Задача 2. Библиотека
 
 class Library {
     constructor(name, books) {
